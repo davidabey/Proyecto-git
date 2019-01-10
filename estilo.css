@@ -1,0 +1,152 @@
+/* animacion de scroll */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("https://mobimg.b-cdn.net/pic/v2/gallery/preview/obekty-14734.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:  Roboto, sans-serif;
+}
+
+#acordeon{
+    margin: 1% 0% 1% 12%;
+    width: 78%;
+}
+#botones{
+    float: left;
+    clear: both;
+    margin: 1% 0% 1% 12%;
+    width: 78%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px; 
+}
+.flex{
+    float: left;
+    margin: 0% 0% 1% 1%;
+    box-shadow: 2px 2px grey;
+    font-size:1.2em;
+}
+#redes{
+    display: flex;
+    margin: 1% 0% 1% 12%;
+    width: 78%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px; 
+}
+#redes a{
+   width:5%;
+   
+
+}
+#a1{
+   order: 1; 
+}
+#a2{
+   order: 2; 
+}
+#a3{
+   order: 3; 
+}
+#a4{
+   order: 4; 
+}
+#a5{
+   order: 5; 
+}
+.icons{
+    width: 70%;
+}
+
+.icons:hover{
+    filter: brightness(150%);
+}
+
+.img{
+    width: 30%;
+    padding-left: 1.5%;
+}
+
+/* estilo de la caja numero de comentarios */
+.numero{
+    float: right;
+    width: 10%;
+}
+
+
+
+h1{
+    font-family: 'Courier New';
+    color: blue;
+}
+
+/* caja con la parte comentarios */
+#comentarios{
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px; 
+    float: left;
+    clear: both;
+    margin: 1% 0% 1% 12%;
+    width: 76%;
+    padding: 0% 1% 1% 1%;
+}
+
+/* cada uno de los comentarios */
+.comentario{
+    
+    width: 50%;
+    margin: 0% 0% 1% 0%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+/* titulos de los articulos */
+.tittle{
+    color: blue;
+    font-size: 2em;
+}
+
+/* caja para añadir comentarios */
+#anadir{
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    float: left;
+    clear: both;
+    margin: 1% 0% 0% 12%;
+    width: 76%;
+    padding: 0% 1% 1% 1%;
+    
+}
+
+/* input para escribir el comentario */
+#textoc{
+    width: 30%;
+    font-family: Arial;
+}
+.inputs{
+    background:transparent;
+    float: left;
+    clear: both;
+    margin: 0% 0% 1% 0%;
+    box-shadow: 2px 2px grey;
+    font-size: 1.2em;
+   
+}
+.buttons{
+    background:transparent;
+    float: left;
+    margin: 0% 0% 1% 1%;
+    box-shadow: 2px 2px grey;
+    font-size:1.2em;
+}
+#b1{
+    clear: left;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(135,206, 250);
+    box-shadow: 2px 2px black;
+    
+    
+}

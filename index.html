@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">  
+</head>
+<body>
+    <div id="acordeon">
+            <h3 style="font-size:1.5em; padding-left:3%;">Los visitadores nocturnos</h3>
+            <div>
+                <img class="img"src="https://jdcdn-wabisabiinvestme.netdna-ssl.com/wp-content/uploads/2018/11/oie_Gbg8Fedrhwls2.jpg">
+                <div style="padding-left:1.5%;"> Silvia Castellanos </div>
+                <div style="padding-left:1.5%;">2018-11-12</div>
+                <br>
+                <div style="padding-left:1.5%; padding-right:1.5%; text-align:justify;">Siempre aparecen de noche, cuando ya estoy acostada, dispuesta a conciliar el sue�o. Debe de gustarles molestarme a esas horas, justo cuando estoy qued�ndome dormida. Es ese momento en el que por la(...)</div>
+                <div class="numero"> <img width="24" height="24" src="https://image.flaticon.com/icons/svg/54/54761.svg">4</div>
+            </div>
+            
+    </div>
+    <div id="botones">
+        <p class="tittle">Prueba Flex</p>
+        <button id="fb1" class="flex">row</button>
+        <button id="fb2" class="flex">column</button>
+        <button id="fb3" class="flex">flex-start</button>
+        <button id="fb4" class="flex">flex-end</button>
+        <button id="fb5" class="flex">cambiar orden</button>
+        <button id="fb6" class="flex">ajustar a la caja</button>
+    </div>
+    
+    <div id="redes">
+        <a id="a1" href="https://www.facebook.com/" target="_blank"><img class="icons" src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+		<a id="a2" href="https://twitter.com/" target="_blank"><img class="icons" src="https://image.flaticon.com/icons/svg/124/124021.svg"></a>
+		<a id="a3" href="https://es.linkedin.com/" target="_blank"><img class="icons" src="https://image.flaticon.com/icons/svg/174/174857.svg"></a>
+		<a id="a4" href="https://www.pinterest.com/" target="_blank"><img class="icons" src="https://image.flaticon.com/icons/svg/174/174863.svg"></a>
+		<a id="a5" href="https://plus.google.com/" target="_blank"><img class="icons" src="https://image.flaticon.com/icons/svg/145/145804.svg"></a>
+    </div>
+    <div id="anadir">
+        <p class="tittle">Añadir comentario </p>
+        <form id="formulario" >
+            <input name="Id_art" id="Id_art" type="hidden" value="5">
+            <input id="nombrec" class="inputs" type="text" required="" name="nombrec" maxlength="50" placeholder="Escribe tu nombre" >
+            <input id="tituloc" class="inputs" type="text" name="tituloc" maxlength="100" placeholder="Escribe un titulo" >
+            <br>
+            <textarea id="textoc" class="inputs" rows="5" cols="37" name="textoc" required=""></textarea>
+            <input id="b1" class="buttons" type="button" name="enviar" value="Enviar">
+            <input id="b2" class="buttons" type="button" value="Borrar">
+            <input id="b3" class="buttons" type="button" value="Actualizar">
+        </form>
+        <div id="resultado" style="width:98%; padding:1%; float:left;"></div>
+    </div>
+	
+    <div id="coment">
+        <div id="comentarios">
+            <p class="tittle">Comentarios </p>
+            <div class="comentario">
+                <p style="margin: 1% 0% 0% 0%;font-size:1.5em;">wwwwwwwwwwwww</p>
+                <div>wwwwwwwwwww</div>
+                <div>2018-12-04</div>
+                <div>wwwwwwwwwwwww</div> 
+            </div>
+            <div class="comentario">
+                <p style="margin: 1% 0% 0% 0%;font-size:1.5em;">  </p>
+                <div>Lucy</div>
+                <div>2018-11-10</div>
+                <div>Echo de menos Suspense(The Innocents)(1961) de Jack Clayton.Fantástica,impecable y cinematográficamente perfecta adaptación de la novela Otra vuelta de tuerca,de Henry James,de la que bebe notablemente Los otros de Amenabar.</div> 
+            </div>
+            <div class="comentario">
+                <p style="margin: 1% 0% 0% 0%;font-size:1.5em;">  </p>
+                <div>Oppiano Licario</div>
+                <div>2018-11-09</div>
+                <div>It follows (2014) también asusta bien para lo modesta que es.</div> 
+            </div>
+            <div class="comentario">
+                <p style="margin: 1% 0% 0% 0%;font-size:1.5em;">  </p>
+                <div>Miguel Angel</div>
+                <div>2018-11-09</div>
+                <div>A mí me han gustado mucho últimamente “The divide”, “Mandy” y “Beyond the Black rainbow”, “Under the Skin y “The Septic Man”.</div> 
+            </div>
+            <div class="comentario">
+                <p style="margin: 1% 0% 0% 0%;font-size:1.5em;">.prueba.</p>
+                <div>.david.</div>
+                <div>0000-00-00</div>
+                <div>.feifjoejfoe.</div> 
+            </div>        
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="motor.js" type="text/javascript"></script>
+</body>
+</html>
